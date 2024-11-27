@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    background-color: #003478;
+
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6, minmax(100px, auto));
+    position: relative;
+
+}
+
+
+#grid {
+    position: absolute;
+    display: none;
+    grid-template-columns: repeat(12, 1fr);
+    width: 100%;
+    height: 100%;
+
+}
+
+#grid p {
+    border: 1px solid #000;
+    margin: 0;
+    opacity: 0.2;
+
+}
+
+header {
+    grid-column: 1/13;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+
+}
+
+header img {
+    grid-column: 1/3;
+    align-self: center;
+    width: 250%;
+
+}
+
+header nav {
+    grid-column: 5/13;
+    align-self: center;
+
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    float: right;
+
+}
+
+header nav ul li {
+    display: inline;
+    padding-left: 10px;
+
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.hero-text {
+    grid-column: 1/7;
+    align-self: center;
+
+}
+
+.hero-image {
+    grid-column: 7/13;
+    align-self: center;
+
+}
+
+.hero-image img {
+    width: 100%;
+
+}
+
+h1 {
+    font-size: 54px;
+    line-height: 60px;
+    font-weight: 800;
+    color: #fff;
+    margin: 0;
+
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #fff;
+
+}
+
+h3 {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 800;
+    color: #ed1d24
+
+}
+
+.button {
+    padding: 15px 30px;
+    background-color: #ed1d24;
+    display: inline-block;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+
+}
+
+.title {
+    grid-column: 1/13;
+    text-align: center;
+
+}
+
+h2 {
+    color: #fff;
+    font-size: 30px;
+
+}
+
+.form-text {
+    grid-column: 2/7;
+    align-self: center;
+
+}
+
+.form-image {
+    grid-column: 8/12;
+    align-self: center;
+
+}
+
+.form-image img {
+    width: 100%;
+
+}
+
+p {
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+.exp-text {
+    grid-column: 7/12;
+    align-self: center;
+
+}
+
+.exp-image {
+    grid-column: 2/6;
+    align-self: center;
+    grid-row: 5/6;
+
+}
+
+.exp-image img {
+    width: 100%;
+
+}
+
+
