@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="description" content="I'm Sonic The Hedgehog, I always fight for the sake of others. I fought giant robots and mystical creatures in the past. I've actually done that for the past 33 years if my life. I think it's time for me to retire. It's time for me to think about myself.">
     <title>CV of Sonic The Hedgehog - Homepage</title>
 </head>
@@ -30,12 +31,61 @@
             <nav>
                 <ul>
                     <li><a href="#">Qualities</a></li>
-                    <li><a href="#">Experiences</a></li>
-                    <li><a href="#" class="button">Dream Job</a></li>
+                    <li><a href="About.html">Experiences</a></li>
+                    <li><a href="#">Dream Job</a></li>
                 </ul>
             </nav>
         </header>
-
+        <div id="navigation2">
+            <nav role="navigation">
+                <div id="menuToggle">
+                  <!--
+                  A fake / hidden checkbox is used as click reciever,
+                  so you can use the :checked selector on it.
+                  -->
+                  <input type="checkbox" id="menuCheckbox" />
+                  
+                  <!--
+                  Some spans to act as a hamburger.
+                  
+                  They are acting like a real hamburger,
+                  not that McDonalds stuff.
+                  -->
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  
+                  <!--
+                  Too bad the menu has to be inside of the button
+                  but hey, it's pure CSS magic.
+                  -->
+                  <ul id="menu">
+                    <!-- 
+                    We can use a label here to close upon click (when doing same page navigation), this
+                    does require a slight bit of JS.
+                    -->
+                    <li>
+                      <a href="#">
+                        <label for="menuCheckbox" onclick="this.parentNode.click();">Home</label>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#about">
+                        <label for="menuCheckbox" onclick="this.parentNode.click();">Qualities</label>
+                      </a>
+                    </li>
+                    <li>
+                        <a href="About.html">
+                          <label for="menuCheckbox" onclick="this.parentNode.click();">Experiences</label>
+                        </a>
+                      </li>
+                    
+                    <!-- These just close the menu -->
+                    <li><label for="menuCheckbox"><a>Show Less</a></label></li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
         <div class="hero-text">
             <h3>PRESENTATION</h3>
             <h1>Sonic The Hedgehog</h1>
@@ -58,7 +108,7 @@
         <div class="exp-text">
             <h2>My Experiences</h2>
             <p>From battles won to friendships built, my journey has been one of growth, resilience, and teamwork.</p>
-            <a href="#" class="button">My Experiences</a>
+            <a href="About.html" class="button">My Experiences</a>
         </div>
         <div class="exp-image">
             <img src="images/sonic_adventure_pose.png" alt="">
