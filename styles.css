@@ -71,7 +71,15 @@ header nav ul li {
 
 header nav ul li a {
     color: #fff;
+    display: inline-block;
     text-decoration: none;
+    transition: transform 0.5s;
+    transition-timing-function: ease-in;
+
+}
+
+header nav ul li a:hover {
+    transform: translateY(-10px);
 
 }
 
@@ -125,7 +133,14 @@ h3 {
     text-decoration: none;
     color: #fff;
     font-weight: 600;
+    transition: background-color 0.5s;
+    transition-timing-function: ease-in;
 
+}
+
+.button:hover {
+
+    background-color: #000066;
 }
 
 .title {
