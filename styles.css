@@ -75,13 +75,14 @@ header nav ul li a {
     color: #fff;
     display: inline-block;
     text-decoration: none;
-    transition: backgound-color 0.5s, transform 0.5s;
+    transition: color 0.5s, transform 0.5s;
     transition-timing-function: ease-in;
 
 }
 
 header nav ul li a:hover {
     transform: translateY(-10px);
+    color: #000066;
 
 }
 
@@ -369,7 +370,7 @@ p {
     }
 
     .exp-image img {
-        width: 100%;
+        width: 120%;
     
     }
 
