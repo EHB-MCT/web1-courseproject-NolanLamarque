@@ -180,7 +180,7 @@ footer nav ul li a:hover {
 
 }
 
-.hero-text {
+.start-text {
     grid-column: 2/8;
     align-self: center;
     animation-name: opacity;
@@ -188,7 +188,7 @@ footer nav ul li a:hover {
     animation-timing-function: ease-out;
 }
 
-.hero-image {
+.start-image {
     grid-column: 8/12;
     align-self: center;
     animation-name: slideLeft;
@@ -198,7 +198,7 @@ footer nav ul li a:hover {
 
 }
 
-.hero-image img {
+.start-image img {
     width: 115%;
     
 
@@ -260,7 +260,7 @@ h2 {
 
 }
 
-.form-text {
+.friend-text {
     grid-column: 7/13;
     align-self: center;
     grid-row: 3/4;
@@ -272,7 +272,7 @@ h2 {
 
 }
 
-.form-text h2 {
+.friend-text h2 {
     
     font-size: 54px;
     line-height: 60px;
@@ -280,7 +280,7 @@ h2 {
 
 }
 
-.form-image {
+.friend-image {
     grid-column: 2/6;
     align-self: center;
     grid-row: 3/4;
@@ -291,7 +291,7 @@ h2 {
 
 }
 
-.form-image img {
+.friend-image img {
     width: 75%;
 
 }
@@ -303,7 +303,7 @@ p {
 
 }
 
-.exp-text {
+.time-text {
     grid-column: 2/6;
     align-self: center;
     grid-row: 5/6;
@@ -313,7 +313,7 @@ p {
 
 }
 
-.exp-image {
+.time-image {
     grid-column: 8/12;
     align-self: center;
     grid-row: 5/6;
@@ -324,12 +324,12 @@ p {
 
 }
 
-.exp-image img {
+.time-image img {
     width: 75%;
 
 }
 
-.exp-text h2 {
+.time-text h2 {
     
     font-size: 54px;
     line-height: 60px;
@@ -565,12 +565,12 @@ p {
     
     }
 
-    .hero-text {
+    .start-text {
         grid-column: 2/8;
     
     }
     
-    .hero-image {
+    .start-image {
         grid-column: 8/12;
         align-self: center;
     
@@ -602,13 +602,13 @@ p {
         display: block !important;
     }
 
-    .hero-text {
+    .start-text {
         grid-column: 2/7;
         font-size: 50px;
     
     }
     
-    .hero-image {
+    .start-image {
         grid-column: 7/12;
     
     }
@@ -644,13 +644,13 @@ p {
     }
 
     
-    .hero-text {
+    .start-text {
         grid-column: 3/8;
         font-size: 50px;
     
     }
     
-    .hero-image {
+    .start-image {
         grid-column: 8/12;
     
     }
@@ -687,50 +687,50 @@ p {
     
     }
 
-    .form-text {
+    .friend-text {
         grid-column: 8/12;
         align-self: center;
     
     }
     
-    .form-image {
+    .friend-image {
         grid-column: 3/7;
         align-self: center;
     
     }
     
-    .form-image img {
+    .friend-image img {
         width: 75%;
     
     }
 
     
-    .form-text h2 {
+    .friend-text h2 {
         font-size: 24px;
         line-height: 25px;
     
     }
 
-    .form-text p {
+    .friend-text p {
         font-size: 15px;
         line-height: 25px;
     
     }
     
     
-    .exp-text {
+    .time-text {
         grid-column: 3/8;
         align-self: center;
     
     }
     
-    .exp-image {
+    .time-image {
         grid-column: 9/12;
         align-self: center;
         grid-row: 5/6;
     
     }
-    .exp-text h2 {
+    .time-text h2 {
         font-size: 24px;
         line-height: 30px;
     }
@@ -841,14 +841,14 @@ p {
     }
     
     .joy-image {
-        grid-column: 3/5;
+        grid-column: 2/5;
         align-self: center;
         grid-row: 10/11;
     
     }
 
     .joy-image img {
-        width: 175%;
+        width: 135%;
     }
 
     .joy-text h2 {
