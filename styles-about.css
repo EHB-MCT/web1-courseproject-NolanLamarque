@@ -1,5 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+@keyframes slideLeft{
+    from{
+        transform: translateX(650px);
+        opacity: 0;
+    }
+
+    to{
+        transform: translateX(0);
+        opacity: 1;
+
+    }
+
+}
+
+@keyframes slideRight{
+    from{
+        transform: translateX(-750px);
+        opacity: 0;
+    }
+
+    to{
+        transform: translateX(0);
+        opacity: 1;
+
+    }
+
+}
+
+@keyframes opacity{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+
+    }
+
+}
+
+
+
 body {
     font-family: "Poppins", sans-serif;
     margin: 0;
@@ -141,17 +183,24 @@ footer nav ul li a:hover {
 .hero-text {
     grid-column: 2/8;
     align-self: center;
-
+    animation-name: opacity;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
 }
 
 .hero-image {
     grid-column: 8/12;
     align-self: center;
+    animation-name: slideLeft;
+    animation-duration: 0.8s;
+    animation-timing-function: ease-out;
+
 
 }
 
 .hero-image img {
     width: 115%;
+    
 
 }
 
@@ -161,6 +210,7 @@ h1 {
     font-weight: 800;
     color: #fff;
     margin: 0;
+    
 
 }
 
@@ -214,6 +264,10 @@ h2 {
     grid-column: 7/13;
     align-self: center;
     grid-row: 3/4;
+    animation-name: opacity;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+
     
 
 }
@@ -230,6 +284,10 @@ h2 {
     grid-column: 2/6;
     align-self: center;
     grid-row: 3/4;
+    animation-name: slideRight;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+
 
 }
 
@@ -249,6 +307,9 @@ p {
     grid-column: 2/6;
     align-self: center;
     grid-row: 5/6;
+    animation-name: opacity;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
 
 }
 
@@ -256,6 +317,10 @@ p {
     grid-column: 8/12;
     align-self: center;
     grid-row: 5/6;
+    animation-name: slideLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+
 
 }
 
@@ -277,6 +342,9 @@ p {
     grid-column: 8/12;
     align-self: center;
     grid-row: 6/7;
+    animation-name: opacity;
+    animation-duration: 2.6s;
+    animation-timing-function: ease-out;
 
 }
 
@@ -284,6 +352,10 @@ p {
     grid-column: 2/6;
     align-self: center;
     grid-row: 6/7;
+    animation-name: slideRight;
+    animation-duration: 2.6s;
+    animation-timing-function: ease-out;
+
 
 }
 
@@ -304,6 +376,9 @@ p {
     grid-column: 2/6;
     align-self: center;
     grid-row: 7/8;
+    animation-name: opacity;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
 
 }
 
@@ -311,6 +386,10 @@ p {
     grid-column: 8/12;
     align-self: center;
     grid-row: 7/8;
+    animation-name: slideLeft;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+
 
 }
 
@@ -331,6 +410,9 @@ p {
     grid-column: 7/12;
     align-self: center;
     grid-row: 8/9;
+    animation-name: opacity;
+    animation-duration: 3.5s;
+    animation-timing-function: ease-out;
 
 }
 
@@ -338,6 +420,10 @@ p {
     grid-column: 2/6;
     align-self: center;
     grid-row: 8/9;
+    animation-name: slideRight;
+    animation-duration: 3.5s;
+    animation-timing-function: ease-out;
+
 
 }
 
@@ -358,6 +444,9 @@ p {
     grid-column: 2/6;
     align-self: center;
     grid-row: 9/10;
+    animation-name: opacity;
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
 
 }
 
@@ -365,6 +454,10 @@ p {
     grid-column: 8/12;
     align-self: center;
     grid-row: 9/10;
+    animation-name: slideLeft;
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+
 
 }
 
@@ -385,6 +478,9 @@ p {
     grid-column: 7/12;
     align-self: center;
     grid-row: 10/11;
+    animation-name: opacity;
+    animation-duration: 4.5s;
+    animation-timing-function: ease-out;
 
 }
 
@@ -392,6 +488,10 @@ p {
     grid-column: 2/6;
     align-self: center;
     grid-row: 10/11;
+    animation-name: slideRight;
+    animation-duration: 4.5s;
+    animation-timing-function: ease-out;
+
 
 }
 
@@ -419,6 +519,10 @@ p {
     grid-column: 8/12;
     align-self: center;
     grid-row: 11/12;
+    animation-name: slideLeft;
+    animation-duration: 5s;
+    animation-timing-function: ease-out;
+
 
 }
 

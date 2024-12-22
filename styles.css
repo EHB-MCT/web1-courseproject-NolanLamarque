@@ -8,6 +8,7 @@ body {
 
 }
 
+
 .wrapper {
     max-width: 1200px;
     width: 100%;
@@ -136,15 +137,58 @@ footer nav ul li a:hover {
 
 }
 
+@keyframes slideLeft{
+    from{
+        transform: translateX(650px);
+    }
+
+    to{
+        transform: translateX(0);
+
+    }
+
+}
+
+@keyframes slideRight{
+    from{
+        transform: translateX(-750px);
+    }
+
+    to{
+        transform: translateX(0);
+
+    }
+
+}
+
+
+@keyframes opacity{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+
+    }
+
+}
+
 .hero-text {
     grid-column: 1/8;
     align-self: center;
+    animation-name: opacity;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
 
 }
 
 .hero-image {
     grid-column: 8/13;
     align-self: center;
+    animation-name: slideLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
 
 }
 
@@ -211,12 +255,18 @@ h2 {
 .form-text {
     grid-column: 2/7;
     align-self: center;
+    animation-name: opacity;
+    animation-duration: 1.3s;
+    animation-timing-function: ease-out;
 
 }
 
 .form-image {
     grid-column: 8/12;
     align-self: center;
+    animation-name: slideLeft;
+    animation-duration: 1.3s;
+    animation-timing-function: ease-out;
 
 }
 
@@ -235,6 +285,9 @@ p {
 .exp-text {
     grid-column: 7/12;
     align-self: center;
+    animation-name: opacity;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
 
 }
 
@@ -242,6 +295,9 @@ p {
     grid-column: 2/6;
     align-self: center;
     grid-row: 6/7;
+    animation-name: slideRight;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
 
 }
 

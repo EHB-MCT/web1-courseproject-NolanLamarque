@@ -8,6 +8,47 @@ body {
 
 }
 
+@keyframes slideLeft{
+    from{
+        transform: translateX(650px);
+        opacity: 0;
+    }
+
+    to{
+        transform: translateX(0);
+        opacity: 1;
+
+    }
+
+}
+
+@keyframes slideRight{
+    from{
+        transform: translateX(-750px);
+        opacity: 0;
+    }
+
+    to{
+        transform: translateX(0);
+        opacity: 1;
+
+    }
+
+}
+
+@keyframes opacity{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+
+    }
+
+}
+
+
 
 .wrapper {
     max-width: 1200px;
@@ -137,19 +178,26 @@ footer nav ul li a:hover {
 
 }
 
-.hero-text {
+.speed-text {
     grid-column: 2/8;
     align-self: center;
+    animation-name: opacity;
+    animation-duration: 0.8s;
+    animation-timing-function: ease-out;
 
 }
 
-.hero-image {
+.speed-image {
     grid-column: 9/12;
     align-self: center;
+    animation-name: slideLeft;
+    animation-duration: 0.8s;
+    animation-timing-function: ease-out;
+
 
 }
 
-.hero-image img {
+.speed-image img {
     width: 100%;
 
 }
@@ -209,15 +257,18 @@ h2 {
 
 }
 
-.form-text {
+.leadership-text {
     grid-column: 7/13;
     align-self: center;
     grid-row: 3/4;
+    animation-name: opacity;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
     
 
 }
 
-.form-text h2 {
+.leadership-text h2 {
     
     font-size: 54px;
     line-height: 60px;
@@ -225,14 +276,17 @@ h2 {
 
 }
 
-.form-image {
+.leadership-image {
     grid-column: 2/6;
     align-self: center;
     grid-row: 3/4;
+    animation-name: slideRight;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
 
 }
 
-.form-image img {
+.leadership-image img {
     width: 100%;
 
 }
@@ -244,26 +298,32 @@ p {
 
 }
 
-.exp-text {
+.social-text {
     grid-column: 2/6;
     align-self: center;
     grid-row: 5/6;
+    animation-name: opacity;
+    animation-duration: 1.8s;
+    animation-timing-function: ease-out;
 
 }
 
-.exp-image {
+.social-image {
     grid-column: 8/12;
     align-self: center;
     grid-row: 5/6;
+    animation-name: slideLeft;
+    animation-duration: 1.8s;
+    animation-timing-function: ease-out;
 
 }
 
-.exp-image img {
+.social-image img {
     width: 75%;
 
 }
 
-.exp-text h2 {
+.social-text h2 {
     
     font-size: 54px;
     line-height: 60px;
@@ -272,26 +332,32 @@ p {
 }
 
 
-.knux-text {
+.positive-text {
     grid-column: 8/12;
     align-self: center;
     grid-row: 6/7;
+    animation-name: opacity;
+    animation-duration: 2.3s;
+    animation-timing-function: ease-out;
 
 }
 
-.knux-image {
+.positive-image {
     grid-column: 2/6;
     align-self: center;
     grid-row: 6/7;
+    animation-name: slideRight;
+    animation-duration: 2.3s;
+    animation-timing-function: ease-out;
 
 }
 
-.knux-image img {
+.positive-image img {
     width: 85%;
 
 }
 
-.knux-text h2 {
+.positive-text h2 {
     
     font-size: 54px;
     line-height: 60px;
@@ -299,26 +365,32 @@ p {
 
 }
 
-.chaos-text {
+.flexible-text {
     grid-column: 2/6;
     align-self: center;
     grid-row: 7/8;
+    animation-name: opacity;
+    animation-duration: 2.8s;
+    animation-timing-function: ease-out;
 
 }
 
-.chaos-image {
+.flexible-image {
     grid-column: 8/12;
     align-self: center;
     grid-row: 7/8;
+    animation-name: slideLeft;
+    animation-duration: 2.8s;
+    animation-timing-function: ease-out;
 
 }
 
-.chaos-image img {
+.flexible-image img {
     width: 85%;
 
 }
 
-.chaos-text h2 {
+.flexible-text h2 {
     
     font-size: 54px;
     line-height: 60px;
@@ -326,26 +398,32 @@ p {
 
 }
 
-.shadow-text {
+.justice-text {
     grid-column: 7/12;
     align-self: center;
     grid-row: 8/9;
+    animation-name: opacity;
+    animation-duration: 3.4s;
+    animation-timing-function: ease-out;
 
 }
 
-.shadow-image {
+.justice-image {
     grid-column: 2/6;
     align-self: center;
     grid-row: 8/9;
+    animation-name: slideRight;
+    animation-duration: 3.4s;
+    animation-timing-function: ease-in-out;
 
 }
 
-.shadow-image img {
+.justice-image img {
     width: 75%;
 
 }
 
-.shadow-text h2 {
+.justice-text h2 {
     
     font-size: 54px;
     line-height: 60px;
@@ -381,12 +459,12 @@ p {
     
     }
 
-    .hero-text {
+    .speed-text {
         grid-column: 2/8;
     
     }
     
-    .hero-image {
+    .speed-image {
         grid-column: 8/12;
         align-self: center;
     
@@ -418,13 +496,13 @@ p {
         display: block !important;
     }
 
-    .hero-text {
+    .speed-text {
         grid-column: 2/7;
         font-size: 50px;
     
     }
     
-    .hero-image {
+    .speed-image {
         grid-column: 7/12;
     
     }
@@ -460,13 +538,13 @@ p {
     }
 
     
-    .hero-text {
+    .speed-text {
         grid-column: 3/8;
         font-size: 50px;
     
     }
     
-    .hero-image {
+    .speed-image {
         grid-column: 8/12;
     
     }
@@ -503,69 +581,69 @@ p {
     
     }
 
-    .form-text {
+    .leadership-text {
         grid-column: 8/12;
         align-self: center;
     
     }
     
-    .form-image {
+    .leadership-image {
         grid-column: 3/7;
         align-self: center;
     
     }
     
-    .form-image img {
+    .leadership-image img {
         width: 100%;
     
     }
 
     
-    .form-text h2 {
+    .leadership-text h2 {
         font-size: 24px;
         line-height: 25px;
     
     }
 
-    .form-text p {
+    .leadership-text p {
         font-size: 15px;
         line-height: 25px;
     
     }
     
     
-    .exp-text {
+    .social-text {
         grid-column: 3/8;
         align-self: center;
         grid-row: 4/5;
     
     }
     
-    .exp-image {
+    .social-image {
         grid-column: 9/12;
         align-self: center;
         grid-row: 4/5;
     
     }
-    .exp-text h2 {
+    .social-text h2 {
         font-size: 24px;
         line-height: 30px;
     }
 
-    .knux-text {
+    .positive-text {
         grid-column: 8/12;
         align-self: center;
         grid-row: 5/6;
     
     }
     
-    .knux-image {
+    .positive-image {
         grid-column: 3/8;
         align-self: center;
         grid-row: 5/6;
     
     }
-    .knux-text h2 {
+    .positive-text h2 {
         font-size: 24px;
         line-height: 30px;
     }
@@ -580,53 +658,53 @@ p {
         display: block !important;
     }
 
-    .exp-image img {
+    .social-image img {
         width: 100%;
     
     }
 
-    .chaos-text {
+    .flexible-text {
         grid-column: 3/8;
         align-self: center;
         grid-row: 6/7;
     
     }
     
-    .chaos-image {
+    .flexible-image {
         grid-column: 9/12;
         align-self: center;
         grid-row: 6/7;
     
     }
 
-    .chaos-image img {
+    .flexible-image img {
         width: 115%;
     }
 
-    .chaos-text h2 {
+    .flexible-text h2 {
         font-size: 24px;
         line-height: 30px;
     }
 
-    .shadow-text {
+    .justice-text {
         grid-column: 7/12;
         align-self: center;
         grid-row: 7/8;
     
     }
     
-    .shadow-image {
+    .justice-image {
         grid-column: 3/5;
         align-self: center;
         grid-row: 7/8;
     
     }
 
-    .shadow-image img {
+    .justice-image img {
         width: 175%;
 
     }
-    .shadow-text h2 {
+    .justice-text h2 {
         font-size: 24px;
         line-height: 30px;
     }
