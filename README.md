@@ -18,3 +18,7 @@ Grid:
 I used CSS grid for my website and I used the grid structure that we used in "Exercise 12 - CursorUp" available on Canvas.
 
 Link to exercise 12: https://canvas.ehb.be/courses/39010/pages/exercise-12-cursorup?module_item_id=707617
+
+My Website:
+
+Link to my Website: https://ehb-mct.github.io/web1-courseproject-NolanLamarque/index.html
