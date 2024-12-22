@@ -9,7 +9,7 @@ Sources:
 
 Hamburger Menu:
 
-The only code I used from extern links is for the hamburger menu. I also modified the code to fit me website. There is a part of the code in the header in every html file and a part in every css file.
+The only code I used from extern links is for the hamburger menu. I also modified the code to fit my website. There is a part of the code in the header in every html file and a part in every css file.
 
 Link to website for hamburger menu: https://codepen.io/erikterwan/pen/EVzeRP
 
