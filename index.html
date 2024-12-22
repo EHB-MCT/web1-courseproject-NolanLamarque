@@ -31,7 +31,7 @@
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="#">Qualities</a></li>
+                    <li><a href="Qualities.html">Qualities</a></li>
                     <li><a href="About.html">Experiences</a></li>
                 </ul>
             </nav>
@@ -39,38 +39,18 @@
         <div id="navigation2">
             <nav role="navigation">
                 <div id="menuToggle">
-                  <!--
-                  A fake / hidden checkbox is used as click reciever,
-                  so you can use the :checked selector on it.
-                  -->
                   <input type="checkbox" id="menuCheckbox" />
-                  
-                  <!--
-                  Some spans to act as a hamburger.
-                  
-                  They are acting like a real hamburger,
-                  not that McDonalds stuff.
-                  -->
                   <span></span>
                   <span></span>
                   <span></span>
-                  
-                  <!--
-                  Too bad the menu has to be inside of the button
-                  but hey, it's pure CSS magic.
-                  -->
                   <ul id="menu">
-                    <!-- 
-                    We can use a label here to close upon click (when doing same page navigation), this
-                    does require a slight bit of JS.
-                    -->
                     <li>
-                      <a href="#">
+                      <a href="index.html">
                         <label for="menuCheckbox" onclick="this.parentNode.click();">Home</label>
                       </a>
                     </li>
                     <li>
-                      <a href="#about">
+                      <a href="Qualities.html">
                         <label for="menuCheckbox" onclick="this.parentNode.click();">Qualities</label>
                       </a>
                     </li>
@@ -92,7 +72,7 @@
             <h4>I'm Sonic, a force of speed and freedom, racing through life with purpose, unwavering in my quest to protect my world and friends.</h4>
         </div>
         <div class="hero-image">
-            <img src="images/sonic_modern__jump_action.png" alt="">
+            <img src="images/sonic_modern__jump_action.png" alt="sonic_modern">
         </div>
         <div class="title">
             <h2>More About Myself</h2>
@@ -103,7 +83,7 @@
             <a href="#" class="button">My other forms and qualities</a>
         </div>
         <div class="form-image">
-            <img src="images/sonic_running.png" alt="">
+            <img src="images/sonic_running.png" alt="sonic_running">
         </div>
         <div class="exp-text">
             <h2>My Experiences</h2>
@@ -111,8 +91,18 @@
             <a href="About.html" class="button">My Experiences</a>
         </div>
         <div class="exp-image">
-            <img src="images/sonic_adventure_pose.png" alt="">
+            <img src="images/sonic_adventure_pose.png" alt="sonic_posing">
         </div>
+        <footer>
+          <img src="images/Sonic-Logo-PNG-Photo.png" alt="#">
+          <nav>
+              <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="Qualities.html">Qualities</a></li>
+                  <li><a href="About.html">Experiences</a></li>
+              </ul>
+          </nav>
+        </footer>
     </div>
 </body>
 </html>

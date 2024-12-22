@@ -86,6 +86,56 @@ header nav ul li a:hover {
 
 }
 
+footer {
+    grid-column: 1/13;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+
+}
+
+footer img {
+    grid-column: 1/4;
+    align-self: center;
+    width: 100%;
+
+}
+
+footer nav {
+    grid-column: 9/12;
+    align-self: center;
+    grid-row: 1/2;
+
+}
+
+footer nav ul {
+    margin: 0;
+    padding: 0;
+    float: right;
+
+}
+
+footer nav ul li {
+    display: inline;
+    padding-left: 10px;
+    
+
+}
+
+footer nav ul li a {
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.5s, transform 0.5s;
+    transition-timing-function: ease-in;
+
+}
+
+footer nav ul li a:hover {
+    transform: translateY(-10px);
+    color: #000066;
+
+}
+
 .hero-text {
     grid-column: 1/8;
     align-self: center;
@@ -216,6 +266,18 @@ p {
     
     }
 
+    footer img {
+        grid-column: 9/11;
+        width: 200%;
+    
+    }
+    
+    footer nav {
+        grid-column: 2/7;
+        align-self: center;
+    
+    }
+
     .hero-text {
         grid-column: 2/8;
     
@@ -277,6 +339,18 @@ p {
 @media screen and (max-width: 480px) {
     
     header nav ul {
+        grid-column: 2/7;
+        align-self: center;
+        width: 100%;
+        display: none;
+    
+    }
+
+    footer {
+        background-color: #000066;
+    }
+
+    footer nav ul {
         grid-column: 2/7;
         align-self: center;
         width: 100%;
