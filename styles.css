@@ -346,6 +346,10 @@ p {
     
     }
 
+    header {
+        background-color: #000066; 
+    }
+
     footer {
         background-color: #000066;
     }
